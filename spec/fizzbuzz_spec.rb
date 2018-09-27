@@ -59,4 +59,19 @@ describe 'fizzbuzz' do
       expect(fizzbuzz(100)).to eq 'buzz'
     end
   end
+
+  describe 'fizzbuzz' do
+    it 'returns "fizzbuzz" when passed 15' do
+      expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+
+    it 'returns "fizzbuzz" when passed 30' do
+      expect(fizzbuzz(30)).to eq 'fizzbuzz'
+    end
+
+    it 'returns "fizzbuzz" when passed 300' do
+      expect(fizzbuzz(300)).to eq 'fizzbuzz'
+    end
+
+  end
 end
