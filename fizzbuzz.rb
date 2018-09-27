@@ -1,4 +1,4 @@
 def fizzbuzz(n)
-  return "fizz" if n == 3 || n == 6
+  return "fizz" if n % 3 == 0
   return n
 end
