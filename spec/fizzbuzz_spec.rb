@@ -10,6 +10,10 @@ describe 'fizzbuzz' do
     it 'returns "2" when passed 2' do
       expect(fizzbuzz(2)).to eq '2'
     end
+
+    it 'returns "4" when passed 2' do
+      expect(fizzbuzz(4)).to eq '4'
+    end
   end
 
 
