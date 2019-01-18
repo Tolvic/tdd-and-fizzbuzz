@@ -1,5 +1,27 @@
-# Test Driven Development and Fizzbuzz
-test edit
+# Test Driven Development (TDD) and Fizzbuzz
+This was my first exposure to Test Driven Development using Rspec for testing. Through this challenge I wrote a FizzBuzz console app.
+
+## Running the App
+To launch the app, use the following command:
+
+```bash
+irb -r ./FizzBuzz.rb
+```
+Once the app is launched, using the following command replacing int with any integer of your choice:
+
+```bash
+fizzbuzz(int)
+```
+
+## Running the Tests
+All of the tests written during this exercise can be seen in `/spec/fizzbuzz_spec.rb` file. 
+
+To run the test use the following comamnd
+
+```bash
+rspec
+```
+
 ## Test Driven Development (TDD)
 Test driven development is a software programming practice that can radically increase code quality and program design. It is used throughout top software development companies
 
